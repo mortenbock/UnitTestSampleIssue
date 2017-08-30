@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Configuration;
 using NUnit.Framework;
+using UnitTestSampleIssue.NewDependency;
 using UnitTestSampleIssue.OldDependency;
 
 namespace UnitTestSampleIssue.App.Tests
@@ -24,7 +25,7 @@ namespace UnitTestSampleIssue.App.Tests
         [Test]
         public void VerifyNewVersionIs10()
         {
-            Assert.That(Old.NewtonVersion().Major, Is.EqualTo(6));
+            Assert.That(New.NewtonVersion().Major, Is.EqualTo(10));
         }
 
         [Test]
