@@ -1,0 +1,1 @@
+packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe UnitTestSampleIssue.App.Tests\bin\Debug\UnitTestSampleIssue.App.Tests.dll

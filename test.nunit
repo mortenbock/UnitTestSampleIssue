@@ -1,0 +1,6 @@
+<NUnitProject>
+    <Settings activeconfig="active"/>
+    <Config name="active">
+        <assembly path="UnitTestSampleIssue.App.Tests\bin\Debug\UnitTestSampleIssue.App.Tests.dll"/>
+    </Config>
+</NUnitProject>
