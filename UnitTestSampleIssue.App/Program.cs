@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using UnitTestSampleIssue.NewDependency;
+using UnitTestSampleIssue.OldDependency;
 
 namespace UnitTestSampleIssue.App
 {
@@ -10,6 +8,11 @@ namespace UnitTestSampleIssue.App
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Old dependency: " + Old.NewtonVersion().Major);
+            Console.WriteLine("New dependency: " + New.NewtonVersion().Major);
+
+            Console.ReadLine();
         }
     }
 }
